@@ -9,3 +9,4 @@ print(car2.color)
 print(car2.for_sale)
 
 car2.drive()
+car2.stop()
