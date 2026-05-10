@@ -7,3 +7,4 @@ class Car:
 
 car1 = Car("Mustang", 2024, "red", False)
 print(car1.model)
+print(car1.model)
