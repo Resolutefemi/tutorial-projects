@@ -1,3 +1,3 @@
 class Car:
-    def __init__(self, model, year):
+    def __init__(self, model, year, colour):
         pass
