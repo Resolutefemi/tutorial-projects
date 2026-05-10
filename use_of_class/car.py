@@ -8,3 +8,6 @@ class Car:
         print(f"You drive the {self.color} {self.model}")
     def stop(self):
         print(f"You stop the {self.color} {self.model}")
+    
+    def describe(self):
+        print(f"{self.year}")
