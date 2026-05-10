@@ -1,12 +1,13 @@
-class Students:
-
+class Student:
+    class_year = 2024
     def __init__(self, name, age):
         self.name = name
         self.age = age
 
 
-Students1 = Students("Spongebob", 30)
-Students2 = Students("Patrick", 35 )
+Student1 = Student("Spongebob", 30)
+Student2 = Student("Patrick", 35 )
 
-print(Students1.name)
-print(Students2.age)
+print(Student1.name)
+print(Student2.age)
+print(Student2.class_year)
