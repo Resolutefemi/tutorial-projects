@@ -1,10 +1,7 @@
 #Hangman in python
 
 import random
-words = ("apple", "orange", "banana", "coconut", "pineapple",
-         "cashew", "meat", "Pear", "falcon", "frog", "leopard", "salamander",
-         "hyena", " maize", "yellow", "eagle", "cocoyam", "coffee",
-         "octopus", "cheetah", "kangaroo", "giraffe", "flamingo", "Gorilla")
+from  wordlist import words
 #dictionary of key:()
 hangman_art = {0: ("   ",
                    "   ",
