@@ -5,4 +5,4 @@ class Car:
         self.color = color
         self.for_sale = for_sale
 
-car1 = Car()
+car1 = Car("Mustang", 2024, "red", False)
