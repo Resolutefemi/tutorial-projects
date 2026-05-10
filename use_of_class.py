@@ -6,3 +6,4 @@ class Car:
         self.for_sale = for_sale
 
 car1 = Car("Mustang", 2024, "red", False)
+print(car1)
