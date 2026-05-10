@@ -4,3 +4,5 @@ class Car:
         self.year = year
         self.color = color
         self.for_sale = for_sale
+
+car1 = Car()
